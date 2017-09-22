@@ -2,7 +2,6 @@ package carpark;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,7 +11,6 @@ import bean.Payment;
 /**
  * Servlet implementation class PaymentServlet
  */
-@WebServlet("/PaymentServlet")
 public class PaymentServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -36,7 +34,6 @@ public class PaymentServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
 		System.out.println("Payment Servlet called");
 		Payment payment = new Payment();
 		payment.setTimeIn(request.getParameter("ti"));

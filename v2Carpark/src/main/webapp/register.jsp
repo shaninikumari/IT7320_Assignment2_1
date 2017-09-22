@@ -2,7 +2,7 @@
 	contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 
   
-<h3>Please register here </h3>
+<h3>Please register </h3>
 <form action="index.jsp">
 	<table border = "1" bordercolor = "black" bgcolor = "LightSeaGreen">
 		<tr>

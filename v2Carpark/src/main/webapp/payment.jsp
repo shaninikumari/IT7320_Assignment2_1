@@ -3,7 +3,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-  
+  <%
+String contextPath = request.getContextPath();
+System.out.println("contextPath: "+ contextPath);
+%>
 <h3>  Please Pay for Parking Slot </h3>
 <form action="PaymentServlet" method="post" >
 	<table  bgcolor = "LightSeaGreen">
